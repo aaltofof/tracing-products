@@ -1,0 +1,237 @@
+2600 0 2 0           
+9 SolidEdge 14 ACIS 26.0.1 NT 24 Sat May 12 01:29:38 2018 
+1 9.9999999999999995e-07 1e-10 
+T @52 FXVBUDT5MNJ_YHJ8JE94VQ443485RE73RC64QCN8UBCVSM76BBT3 
+body $2 -1 -1 $-1 $3 $-1 $4 F #
+body $5 -1 -1 $-1 $6 $-1 $7 T -8.6736173798840394e-16 0 0 10.000000000000002 1 34 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $0 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 ATTRIB_XACIS_NAME @13 sensor;sensor #
+lump $-1 -1 -1 $-1 $-1 $8 $0 F #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $1 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 ATTRIB_XACIS_NAME @31 holder_straight;holder_straight #
+lump $-1 -1 -1 $-1 $-1 $9 $1 T -8.6736173798840394e-16 0 0 10.000000000000002 1 34 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+shell $-1 -1 -1 $-1 $-1 $-1 $10 $-1 $3 F #
+shell $-1 -1 -1 $-1 $-1 $-1 $11 $-1 $6 T -8.6736173798840394e-16 0 0 10.000000000000002 1 34 #
+face $12 -1 -1 $-1 $13 $14 $8 $-1 $15 forward single F F #
+face $16 -1 -1 $-1 $17 $18 $9 $-1 $19 forward single T 3 0 34 7 1 34 F #
+render-rbase-attrib $-1 -1 $20 $-1 $10 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $21 $-1 0 2 1 0 0 0 1 0 0 0 1 5 4.2603028668437499 28 1 no_rotate no_reflect no_shear #
+face $22 -1 -1 $-1 $23 $24 $8 $-1 $25 forward single F F #
+loop $-1 -1 -1 $-1 $26 $27 $10 F unknown #
+cone-surface $-1 -1 -1 $-1 5 -5.7396971331562501 28 0 -1 0 0 0 2.5 1 I I -0.70710678118654702 0.70710678118654802 2.5 forward I I I I #
+render-rbase-attrib $-1 -1 $28 $-1 $11 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $29 $-1 0 0 #
+face $30 -1 -1 $-1 $31 $32 $9 $-1 $33 forward single T -8.6736173798840394e-16 0 31 3 1 34 F #
+loop $-1 -1 -1 $-1 $-1 $34 $11 T 3 0 34 7 1 34 unknown #
+plane-surface $-1 -1 -1 $-1 7 3 34 0 0 1 1000 0 0 forward_v I I I I #
+rgb_color-st-attrib $-1 -1 $-1 $12 $10 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.73000001907348633 0.729411780834198 0.729411780834198 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $35 $-1 $13 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $36 $-1 0 2 1 0 0 0 1 0 0 0 1 5 4.2603028668437499 28 1 no_rotate no_reflect no_shear #
+face $37 -1 -1 $-1 $38 $39 $8 $-1 $40 forward single F F #
+loop $-1 -1 -1 $-1 $41 $42 $13 F unknown #
+cone-surface $-1 -1 -1 $-1 5 3.7603028668437499 28 0 1 0 0 0 -3 1 I I -0.70710678118654702 0.70710678118654802 3 forward I I I I #
+loop $-1 -1 -1 $-1 $-1 $43 $10 F unknown #
+coedge $-1 -1 -1 $-1 $27 $27 $44 $45 reversed $14 $-1 #
+rgb_color-st-attrib $-1 -1 $-1 $16 $11 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $46 $-1 $17 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $47 $-1 0 0 #
+face $48 -1 -1 $-1 $49 $50 $9 $-1 $51 forward single T 7 0 31 10 1 34 F #
+loop $-1 -1 -1 $-1 $-1 $52 $17 T -8.6736173798840394e-16 0 31 3 1 34 unknown #
+cone-surface $-1 -1 -1 $-1 3 3 31 -0 1 -0 0 0 -3 1 I I -0 1 3 forward I I I I #
+coedge $-1 -1 -1 $-1 $53 $54 $55 $56 reversed $18 $-1 #
+rgb_color-st-attrib $-1 -1 $-1 $22 $13 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.73000001907348633 0.729411780834198 0.729411780834198 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $57 $-1 $23 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $58 $-1 0 2 1 0 0 0 1 0 0 0 1 5 4.2603028668437499 28 1 no_rotate no_reflect no_shear #
+face $59 -1 -1 $-1 $60 $61 $8 $-1 $62 forward single F F #
+loop $-1 -1 -1 $-1 $63 $64 $23 F unknown #
+cone-surface $-1 -1 -1 $-1 5 -5.7396971331562501 28 -0 -1 -0 0 0 3 1 I I -0 1 3 forward I I I I #
+loop $-1 -1 -1 $-1 $-1 $65 $13 F unknown #
+coedge $-1 -1 -1 $-1 $42 $42 $66 $67 reversed $24 $-1 #
+coedge $-1 -1 -1 $-1 $43 $43 $68 $69 reversed $26 $-1 #
+coedge $-1 -1 -1 $-1 $44 $44 $27 $45 forward $63 $-1 #
+edge $-1 -1 -1 $-1 $70 -6.2831853071795862 $70 -0 $44 $71 reversed @7 unknown F #
+rgb_color-st-attrib $-1 -1 $-1 $30 $17 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $72 $-1 $31 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $73 $-1 0 0 #
+face $74 -1 -1 $-1 $75 $76 $9 $-1 $77 forward single T 0 0 0 10 1 0 F #
+loop $-1 -1 -1 $-1 $-1 $78 $31 T 7 0 31 10 1 34 unknown #
+cone-surface $-1 -1 -1 $-1 7 3 31 -0 1 -0 0 0 -3 1 I I -0 1 3 forward I I I I #
+coedge $-1 -1 -1 $-1 $79 $80 $81 $82 reversed $32 $-1 #
+coedge $-1 -1 -1 $-1 $83 $34 $84 $85 reversed $18 $-1 #
+coedge $-1 -1 -1 $-1 $34 $83 $79 $86 forward $18 $-1 #
+coedge $-1 -1 -1 $-1 $81 $87 $34 $56 forward $88 $-1 #
+edge $-1 -1 -1 $-1 $89 0 $90 0.0040000000000000001 $55 $91 forward @7 unknown T 3 0 34 7 0 34 #
+rgb_color-st-attrib $-1 -1 $-1 $37 $23 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.73000001907348633 0.729411780834198 0.729411780834198 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $92 $-1 $38 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $93 $-1 0 2 1 0 0 0 1 0 0 0 1 5 4.2603028668437499 28 1 no_rotate no_reflect no_shear #
+face $94 -1 -1 $-1 $-1 $95 $8 $-1 $96 reversed single F F #
+loop $-1 -1 -1 $-1 $-1 $68 $38 F unknown #
+plane-surface $-1 -1 -1 $-1 5 -5.7396971331562501 28 0 -1 0 0 0 -1000 forward_v I I I I #
+loop $-1 -1 -1 $-1 $-1 $44 $23 F unknown #
+coedge $-1 -1 -1 $-1 $64 $64 $65 $97 forward $39 $-1 #
+coedge $-1 -1 -1 $-1 $65 $65 $64 $97 reversed $41 $-1 #
+coedge $-1 -1 -1 $-1 $66 $66 $42 $67 forward $95 $-1 #
+edge $-1 -1 -1 $-1 $98 -6.2831853071795862 $98 -0 $66 $99 reversed @7 unknown F #
+coedge $-1 -1 -1 $-1 $68 $68 $43 $69 forward $61 $-1 #
+edge $-1 -1 -1 $-1 $100 0 $100 6.2831853071795862 $68 $101 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $45 $102 #
+ellipse-curve $-1 -1 -1 $-1 5 -5.2396971331562501 28 0 -1 0 0 0 -3 1 I I #
+rgb_color-st-attrib $-1 -1 $-1 $48 $31 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $103 $-1 $49 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $104 $-1 0 0 #
+face $105 -1 -1 $-1 $106 $107 $9 $-1 $108 forward single T 10 0 0 10.000000000000002 1 31 F #
+loop $-1 -1 -1 $-1 $-1 $109 $49 T 0 0 0 10 1 0 unknown #
+plane-surface $-1 -1 -1 $-1 0 3 0 0 0 -1 -1000 0 0 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $110 $84 $87 $111 reversed $50 $-1 #
+coedge $-1 -1 -1 $-1 $112 $52 $54 $86 reversed $32 $-1 #
+coedge $-1 -1 -1 $-1 $52 $112 $113 $114 forward $32 $-1 #
+coedge $-1 -1 -1 $-1 $115 $55 $52 $82 forward $88 $-1 #
+edge $-1 -1 -1 $-1 $90 1.5707963267948966 $116 3.1415926535897931 $81 $117 forward @7 unknown T -8.6736173798840394e-16 0 31 3 0 34 #
+coedge $-1 -1 -1 $-1 $54 $53 $118 $119 forward $18 $-1 #
+coedge $-1 -1 -1 $-1 $78 $120 $53 $85 forward $50 $-1 #
+edge $-1 -1 -1 $-1 $121 0.002 $89 0.0030000000000000001 $84 $122 forward @7 unknown T 7 0 34 7 1 34 #
+edge $-1 -1 -1 $-1 $123 0.002 $90 0.0030000000000000001 $54 $124 forward @7 unknown T 3 0 34 3 1 34 #
+coedge $-1 -1 -1 $-1 $55 $125 $78 $111 forward $88 $-1 #
+loop $-1 -1 -1 $-1 $-1 $126 $127 T -8.6736173798840394e-16 0 0 10.000000000000002 0 34 unknown #
+vertex $-1 -1 -1 $-1 $85 $128 #
+vertex $-1 -1 -1 $-1 $86 $129 #
+straight-curve $-1 -1 -1 $-1 7 0 34 -1000 0 0 F 0 F 0.0040000000000000001 #
+rgb_color-st-attrib $-1 -1 $-1 $59 $38 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.80000001192092896 0 0 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $130 $-1 $60 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $131 $-1 0 2 1 0 0 0 1 0 0 0 1 5 4.2603028668437499 28 1 no_rotate no_reflect no_shear #
+loop $-1 -1 -1 $-1 $-1 $66 $60 F unknown #
+plane-surface $-1 -1 -1 $-1 5 4.2603028668437499 28 0 -1 0 0 0 -1000 forward_v I I I I #
+edge $-1 -1 -1 $-1 $132 0 $132 6.2831853071795862 $64 $133 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $67 $134 #
+ellipse-curve $-1 -1 -1 $-1 5 4.2603028668437499 28 0 -1 0 0 0 -2.5 1 I I #
+vertex $-1 -1 -1 $-1 $69 $135 #
+ellipse-curve $-1 -1 -1 $-1 5 -5.7396971331562501 28 0 -1 0 0 0 -2.5 1 I I #
+point $-1 -1 -1 $-1 5 -5.2396971331562501 25 #
+rgb_color-st-attrib $-1 -1 $-1 $74 $49 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $136 $-1 $75 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $137 $-1 0 0 #
+face $138 -1 -1 $-1 $139 $140 $9 $-1 $141 reversed single T 2 0 25 8 1 31 F #
+loop $-1 -1 -1 $-1 $-1 $142 $75 T 10 0 0 10.000000000000002 1 31 unknown #
+plane-surface $-1 -1 -1 $-1 10 3 0 1 0 -5.5958821805703491e-17 -5.5958821805703489e-14 0 -1000 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $143 $144 $126 $145 reversed $76 $-1 #
+coedge $-1 -1 -1 $-1 $120 $78 $146 $147 reversed $50 $-1 #
+edge $-1 -1 -1 $-1 $148 0 $89 1.5707963267948966 $87 $149 forward @7 unknown T 7 0 31 10 0 34 #
+coedge $-1 -1 -1 $-1 $80 $79 $150 $151 forward $32 $-1 #
+coedge $-1 -1 -1 $-1 $152 $153 $80 $114 reversed $154 $-1 #
+edge $-1 -1 -1 $-1 $155 0.002 $116 0.0030000000000000001 $80 $156 forward @7 unknown T -8.6736173798840394e-16 0 31 -8.6736173798840394e-16 1 31 #
+coedge $-1 -1 -1 $-1 $126 $81 $153 $157 forward $88 $-1 #
+vertex $-1 -1 -1 $-1 $114 $158 #
+ellipse-curve $-1 -1 -1 $-1 3 0 31 0 -1 0 3 0 0 1 F 1.5707963267948966 F 3.1415926535897931 #
+coedge $-1 -1 -1 $-1 $159 $150 $83 $119 reversed $160 $-1 #
+edge $-1 -1 -1 $-1 $121 0 $123 0.0040000000000000001 $83 $161 forward @7 unknown T 3 1 34 7 1 34 #
+coedge $-1 -1 -1 $-1 $84 $110 $159 $162 forward $50 $-1 #
+vertex $-1 -1 -1 $-1 $85 $163 #
+straight-curve $-1 -1 -1 $-1 7 3 34 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+vertex $-1 -1 -1 $-1 $86 $164 #
+straight-curve $-1 -1 -1 $-1 3 3 34 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+coedge $-1 -1 -1 $-1 $87 $126 $142 $165 forward $88 $-1 #
+coedge $-1 -1 -1 $-1 $125 $115 $109 $145 forward $88 $-1 #
+face $166 -1 -1 $-1 $-1 $167 $9 $-1 $168 forward single T -8.6736173798840394e-16 0 0 10.000000000000002 0 34 F #
+point $-1 -1 -1 $-1 7 0 34 #
+point $-1 -1 -1 $-1 3 0 34 #
+rgb_color-st-attrib $-1 -1 $-1 $94 $60 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.73000001907348633 0.729411780834198 0.729411780834198 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+vertex $-1 -1 -1 $-1 $97 $169 #
+ellipse-curve $-1 -1 -1 $-1 5 3.7603028668437499 28 0 -1 0 0 0 -3 1 I I #
+point $-1 -1 -1 $-1 5 4.2603028668437499 25.5 #
+point $-1 -1 -1 $-1 5 -5.7396971331562501 25.5 #
+rgb_color-st-attrib $-1 -1 $-1 $105 $75 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $170 $-1 $106 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $171 $-1 0 0 #
+face $172 -1 -1 $-1 $173 $154 $9 $-1 $174 forward single T -8.6736173798840394e-16 0 0 1.9721522630525295e-31 1 31 F #
+loop $-1 -1 -1 $-1 $175 $176 $106 T 2 1 25 8 1 31 unknown #
+cone-surface $-1 -1 -1 $-1 5 3 28 -0 1 -0 0 0 -3 1 I I -0 1 3 forward I I I I #
+coedge $-1 -1 -1 $-1 $177 $146 $125 $165 reversed $107 $-1 #
+coedge $-1 -1 -1 $-1 $178 $109 $179 $180 reversed $76 $-1 #
+coedge $-1 -1 -1 $-1 $109 $178 $177 $181 forward $76 $-1 #
+edge $-1 -1 -1 $-1 $182 0 $183 0.01 $126 $184 forward @7 unknown T 0 0 0 10 0 0 #
+coedge $-1 -1 -1 $-1 $142 $185 $110 $147 forward $107 $-1 #
+edge $-1 -1 -1 $-1 $186 0.002 $148 0.0030000000000000001 $146 $187 forward @7 unknown T 10 0 31 10 1 31 #
+vertex $-1 -1 -1 $-1 $147 $188 #
+ellipse-curve $-1 -1 -1 $-1 7 0 31 0 -1 0 3 0 0 1 F 0 F 1.5707963267948966 #
+coedge $-1 -1 -1 $-1 $118 $189 $112 $151 reversed $160 $-1 #
+edge $-1 -1 -1 $-1 $123 1.5707963267948966 $155 3.1415926535897931 $112 $190 forward @7 unknown T -8.6736173798840394e-16 1 31 3 1 34 #
+coedge $-1 -1 -1 $-1 $179 $113 $189 $191 forward $154 $-1 #
+coedge $-1 -1 -1 $-1 $113 $179 $115 $157 reversed $154 $-1 #
+loop $-1 -1 -1 $-1 $-1 $153 $139 T -8.6736173798840394e-16 0 0 1.9721522630525295e-31 1 31 unknown #
+vertex $-1 -1 -1 $-1 $114 $192 #
+straight-curve $-1 -1 -1 $-1 -8.6736173798840394e-16 3 31 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+edge $-1 -1 -1 $-1 $116 0 $182 0.031 $115 $193 forward @7 unknown T -8.6736173798840394e-16 0 0 1.9721522630525295e-31 0 31 #
+point $-1 -1 -1 $-1 -8.6736173798840394e-16 0 31 #
+coedge $-1 -1 -1 $-1 $194 $118 $120 $162 reversed $160 $-1 #
+loop $-1 -1 -1 $-1 $-1 $195 $173 T -8.6736173798840394e-16 1 0 10.000000000000002 1 34 unknown #
+straight-curve $-1 -1 -1 $-1 7 1 34 -1000 0 0 F 0 F 0.0040000000000000001 #
+edge $-1 -1 -1 $-1 $186 0 $121 1.5707963267948966 $120 $196 forward @7 unknown T 7 1 31 10 1 34 #
+point $-1 -1 -1 $-1 7 1 34 #
+point $-1 -1 -1 $-1 3 1 34 #
+edge $-1 -1 -1 $-1 $183 0 $148 0.031 $125 $197 forward @7 unknown T 10 0 0 10.000000000000002 0 31 #
+render-rbase-attrib $-1 -1 $198 $-1 $127 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $199 $-1 0 0 #
+loop $-1 -1 -1 $-1 $88 $200 $127 T 2 0 25 8 0 31 unknown #
+plane-surface $-1 -1 -1 $-1 7 0 31 0 -1 0 0 0 -1000 forward_v I I I I #
+point $-1 -1 -1 $-1 5 3.7603028668437499 25 #
+rgb_color-st-attrib $-1 -1 $-1 $138 $106 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $201 $-1 $139 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $202 $-1 0 0 #
+face $203 -1 -1 $-1 $127 $204 $9 $-1 $205 reversed single T -8.6736173798840394e-16 1 0 10.000000000000002 1 34 F #
+plane-surface $-1 -1 -1 $-1 -8.6736173798840394e-16 3 31 -1 0 -2.7979410902851746e-17 -2.7979410902851745e-14 0 1000 forward_v I I I I #
+loop $-1 -1 -1 $-1 $-1 $206 $106 T 2 0 25 8 0 31 unknown #
+coedge $-1 -1 -1 $-1 $176 $176 $207 $208 reversed $140 $-1 #
+coedge $-1 -1 -1 $-1 $185 $142 $144 $181 reversed $107 $-1 #
+coedge $-1 -1 -1 $-1 $144 $143 $195 $209 forward $76 $-1 #
+coedge $-1 -1 -1 $-1 $153 $152 $143 $180 forward $154 $-1 #
+edge $-1 -1 -1 $-1 $210 0.002 $182 0.0030000000000000001 $179 $211 forward @7 unknown T 0 0 0 0 1 0 #
+edge $-1 -1 -1 $-1 $212 0.002 $183 0.0030000000000000001 $144 $213 forward @7 unknown T 10 0 0 10 1 0 #
+vertex $-1 -1 -1 $-1 $180 $214 #
+vertex $-1 -1 -1 $-1 $181 $215 #
+straight-curve $-1 -1 -1 $-1 0 0 0 1000 0 0 F 0 F 0.01 #
+coedge $-1 -1 -1 $-1 $146 $177 $194 $216 forward $107 $-1 #
+vertex $-1 -1 -1 $-1 $147 $217 #
+straight-curve $-1 -1 -1 $-1 10 3 31 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+point $-1 -1 -1 $-1 10 0 31 #
+coedge $-1 -1 -1 $-1 $150 $195 $152 $191 reversed $160 $-1 #
+ellipse-curve $-1 -1 -1 $-1 3 1 31 0 -1 0 3 0 0 1 F 1.5707963267948966 F 3.1415926535897931 #
+edge $-1 -1 -1 $-1 $155 0 $210 0.031 $152 $218 forward @7 unknown T -8.6736173798840394e-16 1 0 1.9721522630525295e-31 1 31 #
+point $-1 -1 -1 $-1 -8.6736173798840394e-16 1 31 #
+straight-curve $-1 -1 -1 $-1 -8.6736173798840394e-16 0 31 2.7979410902851745e-14 0 -1000 F 0 F 0.031 #
+coedge $-1 -1 -1 $-1 $195 $159 $185 $216 reversed $160 $-1 #
+coedge $-1 -1 -1 $-1 $189 $194 $178 $209 reversed $160 $-1 #
+ellipse-curve $-1 -1 -1 $-1 7 1 31 0 -1 0 3 0 0 1 F 0 F 1.5707963267948966 #
+straight-curve $-1 -1 -1 $-1 10 0 0 5.5958821805703489e-14 0 1000 F 0 F 0.031 #
+rgb_color-st-attrib $-1 -1 $-1 $166 $127 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+coedge $-1 -1 -1 $-1 $200 $200 $206 $219 reversed $167 $-1 #
+rgb_color-st-attrib $-1 -1 $-1 $172 $139 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+render-rbase-attrib $-1 -1 $220 $-1 $173 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 $221 $-1 0 0 #
+loop $-1 -1 -1 $-1 $160 $207 $173 T 2 1 25 8 1 31 unknown #
+plane-surface $-1 -1 -1 $-1 7 1 31 0 -1 0 0 0 -1000 forward_v I I I I #
+coedge $-1 -1 -1 $-1 $206 $206 $200 $219 forward $175 $-1 #
+coedge $-1 -1 -1 $-1 $207 $207 $176 $208 forward $204 $-1 #
+edge $-1 -1 -1 $-1 $222 0 $222 6.2831853071795862 $207 $223 forward @7 unknown T 2 1 25 8 1 31 #
+edge $-1 -1 -1 $-1 $210 0 $212 0.01 $178 $224 forward @7 unknown T 0 1 0 10 1 0 #
+vertex $-1 -1 -1 $-1 $180 $225 #
+straight-curve $-1 -1 -1 $-1 0 3 0 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+vertex $-1 -1 -1 $-1 $181 $226 #
+straight-curve $-1 -1 -1 $-1 10 3 0 0 -1000 0 F 0.002 F 0.0030000000000000001 #
+point $-1 -1 -1 $-1 0 0 0 #
+point $-1 -1 -1 $-1 10 0 0 #
+edge $-1 -1 -1 $-1 $212 0 $186 0.031 $185 $227 forward @7 unknown T 10 1 0 10.000000000000002 1 31 #
+point $-1 -1 -1 $-1 10 1 31 #
+straight-curve $-1 -1 -1 $-1 -8.6736173798840394e-16 1 31 2.7979410902851745e-14 0 -1000 F 0 F 0.031 #
+edge $-1 -1 -1 $-1 $228 0 $228 6.2831853071795862 $206 $229 forward @7 unknown T 2 0 25 8 0 31 #
+rgb_color-st-attrib $-1 -1 $-1 $203 $173 2 1 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 0.81999999284744263 0.81999999284744263 0.81999999284744263 #
+rh_material-rh_entity $-1 -1 4 4 @5 plain @5 color -4 1 1 1 @5 phong @14 ambient factor -2 1 @14 diffuse factor -2 0.75 @15 specular factor -2 0.5 @8 exponent -2 10 @14 specular color -4 1 1 1 @4 none @5 plain @5 color -4 0 0 0 #
+vertex $-1 -1 -1 $-1 $208 $230 #
+ellipse-curve $-1 -1 -1 $-1 5 1 28 0 -1 0 3 0 0 1 I I #
+straight-curve $-1 -1 -1 $-1 0 1 0 1000 0 0 F 0 F 0.01 #
+point $-1 -1 -1 $-1 0 1 0 #
+point $-1 -1 -1 $-1 10 1 0 #
+straight-curve $-1 -1 -1 $-1 10 1 0 5.5958821805703489e-14 0 1000 F 0 F 0.031 #
+vertex $-1 -1 -1 $-1 $219 $231 #
+ellipse-curve $-1 -1 -1 $-1 5 0 28 0 -1 0 3 0 0 1 I I #
+point $-1 -1 -1 $-1 8 1 28 #
+point $-1 -1 -1 $-1 8 0 28 #
+End-of-ACIS-data 

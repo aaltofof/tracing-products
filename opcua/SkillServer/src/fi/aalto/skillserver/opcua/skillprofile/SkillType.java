@@ -1,0 +1,58 @@
+/*******************************************************************************
+ * Copyright 2020 Information Technologies in Industrial Automation, Aalto Univeristy
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License.  You may obtain a copy
+ * of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ ******************************************************************************/
+// Generated from SkillProfile
+// by Prosys OPC UA Java SDK Codegen
+//
+package fi.aalto.skillserver.opcua.skillprofile;
+
+import com.prosysopc.ua.ServiceException;
+import com.prosysopc.ua.StatusException;
+import com.prosysopc.ua.TypeDefinitionId;
+import com.prosysopc.ua.nodes.Mandatory;
+import com.prosysopc.ua.nodes.Optional;
+import com.prosysopc.ua.nodes.UaMethod;
+import com.prosysopc.ua.types.opcua.BaseDataVariableType;
+import com.prosysopc.ua.types.opcua.BaseObjectType;
+import java.lang.String;
+
+/**
+ * Generated on 2020-04-29 17:57:49
+ */
+@TypeDefinitionId("nsu=http://www.aalto.fi/OPCUA/SkillProfile/;i=1")
+public interface SkillType extends BaseObjectType {
+  String STATE_MACHINE = "StateMachine";
+
+  String RETURN_DATA = "ReturnData";
+
+  String SET_START_PARAMETER = "SetStartParameter";
+
+  @Optional
+  BaseDataVariableType getReturnDataNode();
+
+  @Optional
+  String getReturnData();
+
+  @Optional
+  void setReturnData(String value) throws StatusException;
+
+  @Mandatory
+  SkillStateMachineType getStateMachineNode();
+
+  @Mandatory
+  UaMethod getSetStartParameterNode();
+
+  void setStartParameter(String startParameter) throws StatusException, ServiceException;
+}

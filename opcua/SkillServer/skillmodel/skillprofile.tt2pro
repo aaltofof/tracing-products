@@ -1,0 +1,35 @@
+###########################
+# UaModeler Project File  #
+# Generated at 29.04.2020 #
+###########################
+
+PROJECTNAME = SkillProfile
+
+TEMPLATESET = ($TEMPLATES)/modeling/v1_0/t0/modeling.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    skillprofile.ua
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    skillprofile.ua: #008000
+
+OUTPUTPATH = 
+
+GENERATE += skillprofile.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+
+DEFAULTNODEIDS = DataType:3001\
+    Method:7001\
+    Object:5001\
+    ObjectType:1001\
+    ReferenceType:4001\
+    Variable:6001\
+    VariableType:2001\
+    View:8001
+
+

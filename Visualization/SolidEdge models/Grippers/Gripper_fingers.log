@@ -1,0 +1,31 @@
+Solid Edge Translation to STL
+Date: sunnuntai,toukokuu 13,2018 12:10ip.
+Source File:C:\Users\chere\Desktop\Aalto Future Factory\Project 2018 Simulation\SolidEdge models\Grippers\Gripper_fingers.par
+Output File: C:\Users\chere\Desktop\Aalto Future Factory\Project 2018 Simulation\SolidEdge models\Grippers\Gripper_fingers.stl
+Source System: SOLID EDGE
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+Operating System: Windows 8 Professional
+Memory: 7,89 GB
+
+Software Information:
+Parasolid Version: 30.0.167
+Bodyshop Version: 30.0.81
+Solid Edge Version: 110.00.03.003 x64
+
+STL Export Options:
+Output File Format:ASCII
+Export Displayed Parts:Off
+structureOption: Monolithic
+Export Units:Millimeter
+Export Tolerance Value:0,001000
+Export Tolerance Type:Fine
+Export Surface Plane Angle Value:0,523599
+
+Translation progress:
+Phase 1 of 2 Fetching Parasolid information...
+Phase 2 of 2 Translating Parasolid to foreign data types...
+Number of STL file Created : 1
+Translation process completed
+Time required to translate:00 : 00 : 00

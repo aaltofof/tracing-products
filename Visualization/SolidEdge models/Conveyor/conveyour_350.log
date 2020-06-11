@@ -1,0 +1,35 @@
+Solid Edge Translation To 3MF
+Date: keskiviikko,toukokuu 09,2018 01:44ap.
+Output File: C:\Users\chere\Desktop\Aalto Future Factory\Project 2018 Simulation\SolidEdge models\Conveyor\conveyour_350.3mf
+Author: Unknown
+Organization: Unknown
+Source System: SOLID EDGE
+
+Hardware:
+Processor: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+Operating System: Windows 8 Professional
+Memory: 7.89 GB
+
+Software Information:
+Parasolid Version: 30.0.167
+Bodyshop Version: 30.0.81
+3MF Adapter Version:2.0.45
+Solid Edge Version: 110.00.03.003 x64
+
+3MF Export Options
+Export Construction Solids:Off
+Export Displayed Parts:Off
+Enable Logging:On
+Export Units:Millimeters
+Export Tolerance Value:1.250000
+Export Tolerance Type:Custom
+Export Surface Plane Angle Value:0.523599
+Export Author:Unknown
+Export Description:Unknown
+Export Organization:Unknown
+Export Program Name:Unknown
+
+Translation progress:
+Phase 1 of 1 Translating Parasolid to foreign data types...
+Translation process completed
+Time required to translate:00 : 00 : 00
